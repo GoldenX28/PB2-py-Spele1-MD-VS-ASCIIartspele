@@ -96,5 +96,10 @@ for x in range(7):
     input("Spiedied <ENTER> ,lai turpinātu.") 
 
 print("Spēle beidzās")
-print("1. spēlētāja punkti:", pirma_sp_skaitlis)
-print("2. spēlētāja punkti:", otra_sp_skaitlis)
+print("1. spēlētāja punkti:", pirma_sp_punkti)
+print("2. spēlētāja punkti:", otra_sp_punkti)
+
+if  pirma_sp_punkti > otra_sp_punkti:
+    print("!!!(1)Pirmais spēlētajs uzvarēja!!!")
+else:
+    print("!!!(2)Otrais spēlētajs uzvarēja!!!")
